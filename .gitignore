@@ -1,2 +1,14 @@
-STM32CLI/Debug/
-STM32CLI/.settings/
+# STM32CubeIDE / Eclipse
+.settings/
+Debug/
+Release/
+
+# Build artifacts
+*.o
+*.d
+*.elf
+*.map
+*.list
+
+# Tool / CLI
+stm32cli/
